@@ -1,9 +1,10 @@
-# PersonalVoiceAssistant
- 🎙️ Cherry - Your Personal Voice Assistant
+# 🎙️ PersonalVoiceAssistant
 
-**Cherry** is a lightweight, customizable Python-based voice assistant designed to make your daily tasks hands-free and more productive. It uses speech recognition and text-to-speech (TTS) technologies to interact with the user and perform various tasks using simple voice commands.
+## 🎤 Guru - Your Personal Voice Assistant
 
-> 🔊 “Yes Boss... I am your Cherry. Tell me, Boss.”
+**Guru** is a lightweight, customizable Python-based voice assistant designed to make your daily tasks hands-free and more productive. It uses speech recognition and text-to-speech (TTS) technologies to interact with the user and perform various tasks using simple voice commands.
+
+> 🔊 “Yes Boss... I am your Guru. Tell me, Boss.”
 
 ---
 
@@ -22,60 +23,62 @@
 
 ## 🛠️ Tech Stack
 
-| Technology      | Description                          |
-|----------------|--------------------------------------|
-| Python 3.x      | Core programming language             |
-| SpeechRecognition | For voice input                    |
-| pyttsx3         | For text-to-speech conversion         |
-| datetime        | For current time functionality        |
-| wikipedia       | For fetching brief information        |
-| pywhatkit       | For YouTube and Google integration    |
+| Technology         | Description                          |
+|--------------------|--------------------------------------|
+| Python 3.x         | Core programming language             |
+| SpeechRecognition  | For voice input                       |
+| pyttsx3            | For text-to-speech conversion         |
+| datetime           | For current time functionality        |
+| wikipedia          | For fetching brief information        |
+| pywhatkit          | For YouTube and Google integration    |
 
 ---
 
 ## 📦 Installation
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/cherry-voice-assistant.git
-   cd cherry-voice-assistant
-2.Create a Virtual Environment 
+### 1. Clone the Repository
 
+    git clone https://github.com/your-username/guru-voice-assistant.git
+    cd guru-voice-assistant
+
+2.Create a Virtual Environment
 bash
 
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
-3.Install Dependencies
+
+3. Install Dependencies
 
 bash
+
 
     pip install -r requirements.txt
 
-4.Run the Assistant
+4. Run the Assistant
 
 bash
 
-    python cherry.py
+    python guru.py
 
------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 🧠 Voice Commands You Can Try
 
 Command Example	What It Does
 
-Cherry, what time is it?	Tells you the current time
+Guru, what time is it?	Tells you the current time
 
-Cherry, play Despacito	Plays Despacito on YouTube
+Guru, play Despacito	Plays Despacito on YouTube
 
-Cherry, search for Python	Searches Python on Google
+Guru, search for Python	Searches Python on Google
 
-Cherry, who is Elon Musk?	Reads a short Wikipedia bio
+Guru, who is Elon Musk?	Reads a short Wikipedia bio
 
-Cherry, who are you?	Introduces itself
+Guru, who are you?	Introduces itself
 
-Cherry, close	Gracefully exits the assistant
+Guru, close	Gracefully exits the assistant
 
------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 🔒 Requirements
 
@@ -85,20 +88,21 @@ A working microphone
 
 Internet connection (for search, YouTube, Wikipedia)
 
------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 📁 Folder Structure
+
 graphql
 
-    cherry-voice-assistant/
+    guru-voice-assistant/
     │
-    ├── cherry.py                  # Main script
+    ├── guru.py                    # Main script
     ├── README.md                  # You're reading it now!
     ├── requirements.txt           # All dependencies
     ├── dist/                      # Contains the EXE version (if built)
     └── assets/                    # Optional: logos or sound files
 
------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
  
 🔧 Building the Executable (Optional)
 
@@ -107,10 +111,10 @@ If you want to convert your .py file to .exe:
 bash
 
     pip install pyinstaller
-    pyinstaller --onefile --noconsole cherry.py
+    pyinstaller --onefile --noconsole guru.py
 Your .exe file will be available inside the dist/ folder.
 
------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 💡 Future Improvements (Ideas)
 
@@ -124,23 +128,24 @@ Your .exe file will be available inside the dist/ folder.
 
 🌦️ Weather forecast
 
------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 🙌 Credits
 
 Developed by Harthik Boddeti
 
+Customized for your personal assistant Guru
+
 Powered by: speech_recognition, pyttsx3, wikipedia, pywhatkit
 
------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 ⭐ Show Your Support
 
 If you like this project:
 
-Star this repo 🌟
+🌟 Star this repo
 
-Share it with your friends 🚀
+🚀 Share it with your friends
 
-Contribute to its development 🧑‍💻
-
+🧑‍💻 Contribute to its development
